@@ -37,7 +37,7 @@ namespace Birthday
                 else
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.Write("{0}hat's not a valid date{1}", clearLine, upLine);
+                    Console.Write("{0}That's not a valid date{1}", clearLine, upLine);
                     Console.ResetColor();
                 }
             }
